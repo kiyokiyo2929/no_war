@@ -52,7 +52,11 @@ a {
 /* middle */
 
 #wrapper2 {
-  margin-left: 3vw;
+  margin-left: 4.2vw;
+}
+
+#wrapper2 p {
+  letter-spacing: 0.1em;
 }
 
 #wrapper2,
@@ -61,6 +65,7 @@ a {
 #position3_top {
   display: flex;
 }
+
 #letter_e_top,
 #letter_e_top2,
 #letter_d_top2 {
