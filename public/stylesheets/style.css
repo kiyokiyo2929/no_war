@@ -1,0 +1,146 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Noto Sans", sans-serif;
+}
+
+p {
+  font-size: 13vw;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#whole_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* top */
+
+#wrapper1 {
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+  animation-name: title_effect_top;
+}
+
+@keyframes title_effect_top {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* middle */
+
+#wrapper2 {
+  margin-left: 3vw;
+}
+
+#wrapper2,
+#position1_top,
+#position2_top,
+#position3_top {
+  display: flex;
+}
+#letter_e_top,
+#letter_e_top2,
+#letter_d_top2 {
+  position: relative;
+  animation-name: title_effect;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+
+#letter_o_top,
+#letter_o_space,
+#letter_d_space2 {
+  position: absolute;
+  animation-name: title_effect2;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+
+/* bottom */
+
+#wrapper3,
+#position_1,
+#position_2,
+#position_4,
+#position_5 {
+  display: flex;
+}
+
+#letter_p,
+#letter_e,
+#letter_c,
+#letter_2e {
+  position: relative;
+  animation-name: title_effect;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+
+@keyframes title_effect {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#letter_space,
+#letter_w,
+#letter_r,
+#letter_space2 {
+  position: absolute;
+  animation-name: title_effect2;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+
+@keyframes title_effect2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#letter_w {
+  margin-left: -5vw;
+}
+
+#wrapper {
+  margin-left: 3vw;
+}
