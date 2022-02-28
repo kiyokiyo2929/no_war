@@ -1,5 +1,7 @@
 # no_war
 
+only html + CSS
+
 https://no-war-design.herokuapp.com/
 
 ![no_war1](https://user-images.githubusercontent.com/59493506/155905522-db297a3f-0d52-4f53-b898-d23ca3da887b.jpg)
