@@ -89,6 +89,10 @@ a {
   opacity: 0;
 }
 
+/* #letter_n_top {
+  color: #005bbb;
+} */
+
 /* bottom */
 
 #wrapper3,
@@ -150,6 +154,10 @@ a {
 #letter_w {
   margin-left: -5vw;
 }
+
+/* #letter_a {
+  color: #ffd500;
+} */
 
 #wrapper {
   margin-left: 3vw;
